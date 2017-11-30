@@ -132,8 +132,8 @@ public class MapsOverlayActivity extends FragmentActivity {
             LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
             if (mMarker == null) {
 //                 first location, add marker
-                mMarker = mMap.addMarker(new MarkerOptions().position(latLng)
-                        .icon(BitmapDescriptorFactory.defaultMarker(HUE_IABLUE)));
+//                mMarker = mMap.addMarker(new MarkerOptions().position(latLng)
+//                        .icon(BitmapDescriptorFactory.defaultMarker(HUE_IABLUE)));
 
                 try {
                     mMarker = mMap.addMarker(new MarkerOptions().position(latLng)
@@ -462,8 +462,8 @@ public class MapsOverlayActivity extends FragmentActivity {
                 miscDestInfo = "- Your destination is";
                 for (int i = 0; i < mDestinationLocation.size(); i++) {
 
-                    destinationTextView.setText("Destination: " +
-                            mDestinationLocation.get(i).getId().toUpperCase() +
+                    destinationTextView.setText(
+                            "Destination: " + mDestinationLocation.get(i).getId().toUpperCase() +
                             ", " + mDestinationLocation.get(i).getBuildingName() +
                             ", " + mDestinationLocation.get(i).getBlock() + " Block, " +
                             "Level " + mDestinationLocation.get(i).getLevel());
@@ -571,7 +571,7 @@ public class MapsOverlayActivity extends FragmentActivity {
             }
             mJointMarkerResults = null;
             mDestinationMarker.clear();//clear arraylist
-//            miscInfoTextView.setText("Additional info: ---");
+            miscInfoTextView.setText("Additional info: ---");
         }
     }
 
@@ -593,15 +593,14 @@ public class MapsOverlayActivity extends FragmentActivity {
         anim.setDuration(100);
         anim.setStartOffset(20);
         anim.setRepeatCount(15);
-        anim.setRepeatMode(Animation.REVERSE);
-        anim.setRepeatCount(Animation.INFINITE);
+//        anim.setRepeatMode(Animation.REVERSE);
+//        anim.setRepeatCount(Animation.INFINITE);
         miscInfoTextView.startAnimation(anim);
     }
 
     private void addMapMarker(LatLng latLng, String markerType) {
         mDestinationMarker.add(mMap.addMarker(new MarkerOptions().position(latLng)
-                .icon(BitmapDescriptorFactory.fromResource(
-                        getMarkerImageValue(markerType)))));
+                .icon( BitmapDescriptorFactory.fromResource( getMarkerImageValue( markerType )))));
     }
 
     private int getMarkerImageValue(String locationType) {

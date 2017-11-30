@@ -1,6 +1,6 @@
 [
   { "id":"thuy",
-    "type":"bàn",
+    "type":"toilet",
     "lon":105.78494824,
     "lat":21.03051403,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -9,16 +9,16 @@
     "buildingName":"chị Thủy"},
 
   { "id":"ban2",
-    "type":"bàn",
+    "type":"toilet",
     "lon":105.78493953,
     "lat":21.03051903,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
     "block":"E",
     "level":1,
-    "buildingName":"bàn 2"},
+    "buildingName":"ban 2"},
 
   { "id":"dung",
-    "type":"bàn",
+    "type":"computer lab",
     "lon":105.78490131,
     "lat":21.03052717,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -27,7 +27,7 @@
     "buildingName":"anh Dũng"},
 
   {"id":"ban",
-    "type":"bàn",
+    "type":"lift",
     "lon":105.78492008,
     "lat":21.03052842,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -36,7 +36,7 @@
     "buildingName":"bàn "},
 
   { "id":"ban1",
-    "type":"bàn",
+    "type":"emergency exit",
     "lon":105.78494187,
     "lat":21.03054125,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -45,7 +45,7 @@
     "buildingName":"bàn 1"},
 
   { "id":"tuong1",
-    "type":"bàn",
+    "type":"emergency exit",
     "lon":105.78494422,
     "lat":21.03048899,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -54,7 +54,7 @@
     "buildingName":"góc tường 1"},
 
   { "id":"tuong2",
-    "type":"bàn",
+    "type":"staircase",
     "lon":105.78489125,
     "lat":21.03050339,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -63,7 +63,7 @@
     "buildingName":"góc tường 2"},
 
   { "id":"cua",
-    "type":"bàn",
+    "type":"staircase",
     "lon":105.78493697,
     "lat":21.03048523,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -72,7 +72,7 @@
     "buildingName":"cửa"},
 
   { "id":"minh",
-    "type":"bàn",
+    "type":"room",
     "lon":105.78493416,
     "lat":21.03057192,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -81,7 +81,7 @@
     "buildingName":"anh Minh"},
 
   { "id":"lamviec",
-    "type":"bàn",
+    "type":"toilet",
     "lon": 105.78495529,
     "lat":21.03056723,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -90,7 +90,7 @@
     "buildingName":"góc làm việc"},
 
   { "id":"tai",
-    "type":"bàn",
+    "type":"computer lab",
     "lon":105.78496333,
     "lat":21.03056504,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",
@@ -99,7 +99,7 @@
     "buildingName":"anh Tài"},
 
   { "id":"tu",
-    "type":"bàn",
+    "type":"computer lab",
     "lon":105.78491606,
     "lat":21.03057724,
     "floorId":"af922da9-cbbd-4667-9eee-a66a271b5f7f",

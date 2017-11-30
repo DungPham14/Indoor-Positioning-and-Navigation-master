@@ -11,13 +11,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.angelsoft.angelo_romel.indoorpositioning.MainActivity">
 
-    <!--
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/ic_logo"
-        android:layout_gravity="center"/>
-        -->
+    <!--<ImageView-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:src="@drawable/ic_logo"-->
+        <!--android:layout_gravity="center"/>-->
+
 
     <FrameLayout
         android:layout_width="match_parent"
